@@ -13,6 +13,6 @@ Displays user testimonials with navigation buttons to switch between them.
 Provides links to TechNova’s social media accounts.
 
 ## Technologies used:
-### HTML: The structure of the website, including semantic HTML5 tags.
-### CSS: For styling the webpage, ensuring a responsive layout with Flexbox and media queries.
-### JavaScript: For the functionality of the testimonial carousel (slideshow effect).
+HTML: The structure of the website, including semantic HTML5 tags.
+CSS: For styling the webpage, ensuring a responsive layout with Flexbox and media queries.
+JavaScript: For the functionality of the testimonial carousel (slideshow effect).
