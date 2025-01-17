@@ -16,3 +16,11 @@ Provides links to TechNova’s social media accounts.
 #### HTML: The structure of the website, including semantic HTML5 tags.
 #### CSS: For styling the webpage, ensuring a responsive layout with Flexbox and media queries.
 #### JavaScript: For the functionality of the testimonial carousel (slideshow effect).
+
+## Instructions for Setting Up and Running Locally
+Download the project files as a ZIP:
+
+1. Go to the repository on GitHub.
+2. Click the green Code button and select Download ZIP.
+3. Extract the downloaded ZIP file to a folder on your computer.
+4. Direct open the website by clicking the "index.html".
