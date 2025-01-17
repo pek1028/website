@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">TechNova</h1>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">TechNova: Innovation for a Better Tomorrow</h2>
+            <p class="hero-description">
+                Empowering businesses with cutting-edge technology
+            </p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+        <img src="images/hero.jpg" alt="Hero Image" class="hero-image">
+    </section>
+
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <img src="images/feature1.jpg" alt="Feature 1">
+                <h3>AI-Powered Solutions</h3>
+                <p>Harness the power of AI to optimize your business processes.</p>
+            </div>
+            <div class="card">
+                <img src="images/feature2.jpg" alt="Feature 2">
+                <h3>Seamless Integration</h3>
+                <p>Easily integrate with your existing tools and platforms.</p>
+            </div>
+            <div class="card">
+                <img src="images/feature3.jpeg" alt="Feature 3">
+                <h3>Real-Time Insights</h3>
+                <p>Get more instant insights to drive smarter decisions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-section">
+            <div class="carousel-item active" id="testimonial-1">
+                <img src="images/alex.jpg" alt="Alex J." class="testimonial-avatar">
+                <p>"This service has exceeded my expectations! The support team is incredibly helpful."</p>
+                <span>- Alex J., Startup Founder</span>
+            </div>
+            <div class="carousel-item" id="testimonial-2">
+                <img src="images/sarah.jpg" alt="Sarah K." class="testimonial-avatar">
+                <p>"A truly transformative experience! It simplified my workflow and saved me hours."</p>
+                <span>- Sarah K., Freelance Designer</span>
+            </div>
+            <div class="carousel-item" id="testimonial-3">
+                <img src="images/chris.jpg" alt="Chris M." class="testimonial-avatar">
+                <p>"The best decision I've ever made! I highly recommend this to everyone."</p>
+                <span>- Chris M., Small Business Owner</span>
+            </div>
+        </div>
+        <button class="carousel-btn prev" onclick="navigateTestimonials(-1)">&lt;</button>
+        <button class="carousel-btn next" onclick="navigateTestimonials(1)">&gt;</button>
+    </section>    
+
+    <footer id="contact" class="footer">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
